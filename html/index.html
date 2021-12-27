@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div id="bars">
+        <div id="carhud" class="left-bottom-carhud">
+            
+
+            <div id="dashboard" class="dashboard" style="width: 100%; text-align: center; padding: 5px;border-bottom: 1px solid rgb(255, 255, 255);">
+                
+                <div id="enginerunning" style="width: 20%;float: right;">
+                    <img src="img/vehicle-off.png" style="width: 20px;">
+                </div>
+
+                <div id="belt" style="width: 20%;float: right;">
+                    <img src="img/belt-off.png" style="width: 20px;">
+                </div>
+                
+                <img src="img/fuel.png" style="width: 20px;float: left;">
+                <div id="fuel" style="font-size: 15px; color: white;width: 45%;"></div>
+            </div>
+
+            <div class="speedometer" style="width: 100%;text-align: center;">
+
+                <div id="board-gear" style="width: 30%; float: right; ">
+                    <div id="gear"  style="font-weight: bold;color: aliceblue;"></div>
+                    <div style="color: aliceblue;font-size: 12px;">VITESSE</div>
+                </div>
+                <div id="board-speed" style="width: 70%;">
+                    <div id="speedtxt" style="font-weight: bold;color: aliceblue; margin-left: 5px;"></div>
+                </div>
+               
+            </div>
+
+            <div class="speedbar">
+                <div class="bar-speed"></div>
+            </div>
+        </div>
+
+        <div id="status" class="left-bottom-status">
+        
+             <div id="stt-id" class="stt-id">
+                <img src="img/hashtag.png" class="center" style="float: left;">
+                <div class="idbar" id="idbar"></div>
+
+                <div id="stt-stamina">
+                    <img src="img/flash.png" class="center">
+                    <div class="staminabar">
+                        <div class="bar-stamina"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="stt-health">
+                <img src="img/like.png" class="center">
+                <div class="healthbar">
+                    <div class="bar-health"></div>
+                </div>
+            </div>
+
+            <div id="stt-armour">
+                <img src="img/vest.png" class="center">
+                <div class="armourbar">
+                    <div class="bar-armour"></div>
+                </div>
+            </div>
+
+
+            <div id="stt-hungry">
+                <img src="img/food.png" class="center" style="float: left;">
+                <div class="foodbar">
+                    <div class="bar-food"></div>
+                </div>
+
+                <img src="img/water.png" class="center img-water" style="margin-left: 4px;">
+                <div class="waterbar">
+                    <div class="bar-water"></div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
